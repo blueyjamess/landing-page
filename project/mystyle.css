@@ -1,0 +1,114 @@
+.allmother{
+    display: flex;
+    flex-direction: column;
+    min-height: 1800px;
+}
+
+.allmother div{
+    margin: 8px;
+}
+
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color: orange;
+}
+
+.first{
+    background-color: blue;
+    border: 6px solid peru;
+    min-height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.first div{
+    flex: 1;
+}
+
+.second{
+    background-color: aquamarine;
+    border: 6px solid black;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.second .same{
+    flex: 1;
+    border: 2px solid black;
+}
+
+.third{
+    background-color: aquamarine;
+    border: 6px solid black;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.third .owo{
+    min-height: 100px;
+    border: 2px solid black;
+}
+
+.third .oyo{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+}
+
+.third .oyo .clean{
+    flex: 1;
+    border: 2px solid peru;
+    border-radius: 10px;
+}
+
+.third .ibadan{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+}
+
+.third .ibadan .oluyole{
+    flex: 1;
+    border: 2px solid peru;
+    border-radius: 10px;
+   
+}
+
+.fourth{
+    background-color: aquamarine;
+    border: 6px solid black;
+    flex: 1;
+}
+
+.fifth{
+    background-color: aquamarine;
+    border: 6px solid black;
+    min-height: 200px;
+}
+
+.sixth{
+    background-color: blue;
+    border: 6px solid black;
+    min-height: 30px;
+    text-align: center;
+}
+
+a {
+  /* this removes the line under our links */
+  text-decoration: none;
+  color: rgb(68, 66, 66);
+}
+
+ul {
+  list-style-type: none;
+}

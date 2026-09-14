@@ -1,8 +1,111 @@
-body{
-    font: verdana;
+container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 10px;
+    box-sizing: content-box;
+}
+
+
+.container .child{
+    flex: 1;
+    border: 2px solid blue;
+    height: 100px;
+    background-color: beige;
+}
+
+.container .first{
+    border: 2px solid blue;
+    background-color: rgb(194, 194, 171);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.container .first .baby{
+    flex: 1;
+    border: 2px solid purple;
 
 }
 
-.mother {
+.container .cars{
+    border: 2px solid blue;
+    background-color: white;
     display: flex;
+    flex-direction: column;
+    height: 140px;
+}
+
+.container .cars .oyo{
+    border: 2px solid blue;
+    background-color: white;
+    flex: 1;
+    font-size: 36px;
+    text-align: center;
+    font-weight: 500;
+}
+
+.container .cars .ife{
+    border: 2px solid blue;
+    background-color: white;
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    padding: 7px;
+    
+}
+
+.container .cars .ife .soun{
+    border: 2px solid blue;
+    background-color: white;
+    height: 120px;
+    width: 200px;
+    border-radius: 10px;
+    gap: 10px;
+    flex: 1;
+    margin-inline: 16px;
+}
+
+.container .cars .ondo{
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    height: 200px;
+}
+
+.container .cars .ondo .water{
+    border: 2px solid blue;
+    background-color: white;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 500;
+    
+    
+}
+
+.container .lappy{
+    border: 2px solid blue;
+    background-color: rgb(124, 168, 250);
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+
+}
+
+.container .people{
+    border: 2px solid blue;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    height: 140px;
+}
+
+.container .base{
+    border: 2px solid blue;
+    background-color: rgb(194, 194, 171);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 25px;
 }
